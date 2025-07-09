@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Conda envs
+.env/
+.envs/
+edge_faarl_env/
+
+# Jupyter
+.notebook_checkpoints/
+*.ipynb_checkpoints
+
+# ONNX/CoreML artifacts
+*.onnx
+*.mlmodel
+
+# Virtual environment folders
+venv/
+.env/
+
+# MacOS metadata
+.DS_Store
+
+# Logs and outputs
+*.log
+outputs/
