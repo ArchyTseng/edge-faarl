@@ -27,6 +27,7 @@ venv/
 outputs/
 
 # LaTeX auxiliary files
+Makefile
 *.aux
 *.toc
 *.out
@@ -36,6 +37,9 @@ outputs/
 *.synctex.gz
 *.pdfsync
 *.dvi
+*.fdb_latexmk
+*.bbl
+*.blg
 
 # Output files
 *.pdf
