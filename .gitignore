@@ -25,3 +25,18 @@ venv/
 # Logs and outputs
 *.log
 outputs/
+
+# LaTeX auxiliary files
+*.aux
+*.toc
+*.out
+*.lof
+*.lot
+*.fls
+*.synctex.gz
+*.pdfsync
+*.dvi
+
+# Output files
+*.pdf
+!figures/*.pdf
