@@ -1,0 +1,63 @@
+\documentclass[11pt]{article}
+
+% ========== Language & Fonts ==========
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}  % Better font rendering
+
+% ========== Page Setup ==========
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+
+% ========== Math & Symbols ==========
+\usepackage{amsmath, amssymb, amsfonts}
+
+% ========== Figures & Tables ==========
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{subfig}
+
+% ========== Colors & Links ==========
+\usepackage{xcolor}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=blue,
+    urlcolor=blue,
+}
+
+% ========== References ==========
+\usepackage[numbers]{natbib}
+
+% ========== Title ==========
+\title{EdgeAlpha-faarl: A Reproducible Pipeline for LLM-Powered MCTS in Edge-Deployed Finance Agents}
+\author{
+    \textbf{Shicheng Zeng} \\
+    \texttt{archyz\_studio@gmail.com} \\
+    University of Birmingham, Dubai
+}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+
+% ========== Main Content ==========
+\input{sections/preamble}
+\input{sections/abstract}
+\input{sections/introduction}
+\input{sections/literature_review}
+\input{sections/methodology/methodology}
+\input{sections/implementation}
+\input{sections/experiments/experiments}
+\input{sections/discussion}
+\input{sections/conclusion}
+
+% ========== References ==========
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}
